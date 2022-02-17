@@ -1,0 +1,61 @@
+#imgpersona{
+    height: 200px;
+    border-radius: 20%;
+}
+
+#aboutme, #socialmedia, #projects, #interests, #academic{
+    background-color: rgb(255, 219, 172);
+}
+
+#navigationmenu{
+    background-color: rgb(228, 199, 145);
+}
+
+#banner, #footer{
+    background-color: rgb(228, 158, 111);
+    z-index: 999;
+}
+
+.fa-brands{
+    font-size: larger;
+}
+
+.card{
+    border-radius: 10%;
+}
+
+.card-img-top{
+    height: 150px;
+    width: auto;
+}
+
+#navigationmenu{
+    position: sticky;
+    display: flex;
+}
+
+
+body{
+    background-color: rgb(252, 253, 218);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container{
+    border-width: 10px;
+    border-color: royalblue;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+}
+
+.stickynav{
+    position: -webkit-sticky;
+	position: sticky;
+    top: 52px;
+}
